@@ -1,3 +1,5 @@
+# Ignore log files
+mta-op-*/**/*.log
 **/gen/
 **/edmx/
 *.db
