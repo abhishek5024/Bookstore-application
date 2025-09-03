@@ -1,0 +1,10 @@
+{
+  "name": "@sap/capire-products",
+  "version": "1.0.0",
+  "description": "Reusable CAP products service domain model and service definition.",
+  "license": "ISC",
+  "repository": "<Add your repository here>",
+  "devDependencies": {
+    "@sap/cds-dk": "^9.1.0"
+  }
+}
