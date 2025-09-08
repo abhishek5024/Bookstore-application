@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bookstore SAPUI5 App</title>
+    <script id="sap-ui-bootstrap"
+      src="https://sdk.openui5.org/resources/sap-ui-core.js"
+      data-sap-ui-theme="sap_fiori_3"
+      data-sap-ui-resourceroots='{"bookstore.ui5": "./webapp"}'
+      data-sap-ui-onInit="module:bookstore.ui5.Component"
+      data-sap-ui-async="true"
+      data-sap-ui-libs="sap.m">
+    </script>
+    <script>
+      sap.ui.getCore().attachInit(function () {
+        new sap.ui.core.ComponentContainer({
+          name: "bookstore.ui5",
+          settings: { id: "bookstore-ui5" },
+          async: true
+        }).placeAt("content");
+      });
+    </script>
+  </head>
+  <body class="sapUiBody" id="content">
+  </body>
+</html>

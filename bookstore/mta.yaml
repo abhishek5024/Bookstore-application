@@ -1,3 +1,19 @@
+# UI5 module definition
+- name: bookstore-ui5
+  type: html5
+  path: app/ui5
+  build-parameters:
+    builder: custom
+    commands:
+      - npm install
+      - npm run build
+  requires:
+    - name: bookstore-srv
+      group: destinations
+      properties:
+        name: srv-api
+        url: ~{srv-url}
+        forwardAuthToken: true
 _schema-version: 3.3.0
 ID: bookstore
 version: 1.0.0-SNAPSHOT

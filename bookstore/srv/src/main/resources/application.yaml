@@ -10,6 +10,8 @@ cds:
       users:
         - name: klaus
           password: pass_klaus
+          roles:
+            - Administrators
           additional:
             firstName: Klaus
             lastName: Sussard

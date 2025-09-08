@@ -1,0 +1,7 @@
+{
+  "name": "bookstore-ui5",
+  "version": "1.0.0",
+  "devDependencies": {
+    "ui5-middleware-simpleproxy": "^3.4.3"
+  }
+}

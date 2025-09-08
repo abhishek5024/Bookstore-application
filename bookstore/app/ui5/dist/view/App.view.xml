@@ -1,0 +1,13 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m">
+  <App>
+    <pages>
+      <Page title="Bookstore">
+        <content>
+          <Text text="Welcome to the Bookstore SAPUI5 App!" />
+        </content>
+      </Page>
+    </pages>
+  </App>
+</mvc:View>

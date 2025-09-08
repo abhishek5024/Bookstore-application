@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/UIComponent"],function(t){"use strict";return t.extend("bookstore.ui5.Component",{metadata:{manifest:"json"},init:function(){t.prototype.init.apply(this,arguments)}})});
+//# sourceMappingURL=Component.js.map
